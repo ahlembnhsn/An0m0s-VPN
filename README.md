@@ -1,29 +1,43 @@
-# An0m0s VPN Manager
+# An0m0s VPN Manager | OpenVPN GUI Controller for Linux
 
 <div align="center">
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-compatible-orange)
 
-**Enterprise-grade OpenVPN controller with killswitch firewall protection**
+**An0m0s VPN - Enterprise-grade OpenVPN GUI Manager with Killswitch Firewall Protection for Linux**
+
+*Free open-source VPN controller | Network security | Privacy protection | OpenVPN client GUI*
+
+[⭐ Star this repo](https://github.com/Anasx1111/An0m0s-VPN) • [🐛 Report Bug](https://github.com/Anasx1111/An0m0s-VPN/issues) • [💡 Request Feature](https://github.com/Anasx1111/An0m0s-VPN/issues)
 
 </div>
 
+---
+
 ## 📋 Overview
 
-An0m0s VPN Manager is a modern, secure GUI application for managing OpenVPN connections on Linux systems. Built with Python and Tkinter, it features a premium dark theme interface, network killswitch protection, and real-time connection monitoring.
+**An0m0s VPN Manager** is a modern, secure GUI application for managing OpenVPN connections on Linux systems. Built with Python and Tkinter, An0m0s VPN features a premium dark theme interface, network killswitch protection, and real-time connection monitoring. Perfect for users who want an easy-to-use OpenVPN GUI on Linux with advanced security features.
 
-## ✨ Features
+### What is An0m0s VPN?
 
-- **🎨 Premium Dark UI** - Modern, responsive interface with smooth animations
-- **🔒 Network Killswitch** - Blocks all traffic outside VPN tunnel using iptables
-- **🌍 IP & Location Detection** - Real-time public IP and geolocation tracking
-- **⚡ Easy Configuration** - Simple .ovpn file upload and management
-- **🛡️ Security First** - Root privilege management with pkexec
-- **📊 Connection Monitoring** - Real-time VPN status and process tracking
-- **🔄 Automatic Recovery** - Network restoration and cleanup tools
+An0m0s VPN Manager is a free, open-source OpenVPN client GUI designed specifically for Linux (Ubuntu, Debian, Kali Linux). It provides a user-friendly interface for managing VPN connections with built-in firewall killswitch to protect your privacy and prevent IP leaks.
+
+## ✨ Key Features of An0m0s VPN
+
+An0m0s VPN Manager offers powerful features for secure OpenVPN connections:
+
+- **🎨 Premium Dark UI** - Modern, responsive interface with smooth animations designed for Linux desktop environments
+- **🔒 Network Killswitch** - Blocks all internet traffic outside VPN tunnel using iptables firewall rules to prevent IP leaks
+- **🌍 IP & Location Detection** - Real-time public IP address and geolocation tracking to verify VPN connection
+- **⚡ Easy Configuration** - Simple .ovpn file upload and management for all OpenVPN providers
+- **🛡️ Security First** - Root privilege management with pkexec for secure VPN operations
+- **📊 Connection Monitoring** - Real-time VPN status and OpenVPN process tracking
+- **🔄 Automatic Recovery** - Network restoration and cleanup tools for safe disconnection
 - **📱 Responsive Design** - Adapts to different screen sizes (1-column/2-column layout)
+- **🆓 Free & Open Source** - MIT licensed, completely free VPN manager software
 
 ## 🖼️ Screenshots
 
@@ -36,24 +50,30 @@ An0m0s VPN Manager is a modern, secure GUI application for managing OpenVPN conn
 - **Connection Dashboard** - Real-time IP address and location tracking
 - **OpenVPN Profile Manager** - Easy .ovpn file configuration
 - **Killswitch Toggle** - Visual security control with one-click activation
-- **Control Panel** - Start VPN, Force Stop, Status Check, and Network Restore
-- **Responsive Design** - Clean, modern dark theme optimized for all screen sizes
-
-## 📦 Requirements
+- **Control Panel* for An0m0s VPN
 
 ### System Requirements
-- **OS**: Linux (tested on Debian/Ubuntu/Kali)
+- **Operating System**: Linux (tested on Debian, Ubuntu, Kali Linux, Mint)
 - **Python**: 3.8 or higher
-- **OpenVPN**: Must be installed
+- **OpenVPN**: Must be installed for VPN functionality
 - **Root Access**: Required for VPN and firewall management
+- **Desktop Environment**: Any Linux DE with X11 support
 
 ### Python Dependencies
-- `tkinter` (usually pre-installed with Python)
+- `tkinter` - Python GUI library (usually pre-installed with Python)
 - `requests` - For IP geolocation API calls
 
-## 🚀 Installation
+### Keywords
+`OpenVPN GUI Linux`, `VPN Manager`, `Network Killswitch`, `Linux VPN Client`, `OpenVPN Controller`, `VPN GUI Ubuntu`, `Python VPN`, `Open Source VPN`, `Firewall Killswitch`, `VPN Privacy Tool`
+### PyHow to Install An0m0s VPN
 
-### 1. Clone the Repository
+### 1. Clone the An0m0s VPN Repository
+```bash
+git clone https://github.com/Anasx1111/An0m0s-VPN.git
+cd An0m0s-VPN
+```
+
+Or download the latest release from [GitHub releases page](https://github.com/Anasx1111/An0m0s-VPN/releases) 1. Clone the Repository
 ```bash
 git clone https://github.com/Anasx1111/An0m0s-VPN.git
 cd An0m0s-VPN
@@ -231,11 +251,19 @@ The author is not responsible for misuse of this software.
 - [ ] System tray integration
 - [ ] Dark/light theme toggle
 
+## 🔍 SEO Keywords
+
+An0m0s VPN, OpenVPN GUI Linux, VPN Manager, Linux VPN Client, OpenVPN Controller, Network Killswitch, VPN Firewall, Ubuntu VPN GUI, Debian VPN Manager, Kali Linux VPN, Python VPN GUI, Open Source VPN Client, Free VPN Manager, OpenVPN Tkinter, Linux Network Security, VPN Privacy Tool, IP Leak Protection, OpenVPN Frontend, VPN Connection Manager, Secure VPN Linux
+
 ---
 
 <div align="center">
 
-**⭐ If you find this project useful, please consider giving it a star!**
+**⭐ If you find An0m0s VPN useful, please star this repository!**
+
+Made with ❤️ by An0m0s | Anas Gharaibeh
+
+**An0m0s VPN Manager** - The best free OpenVPN GUI for Linuxroject useful, please consider giving it a star!**
 
 Made with ❤️ by An0m0s
 
